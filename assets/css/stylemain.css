@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --negro: #1A3636;
+    --sabio: #40534C;
+    --verde: #677D6A;
+    --beige: #D6BD98;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+header{
+    background-color: var(--negro);
+    color: var(--white);
+    width:100% ;
+    height: 80px;
+   
+}
+.menu{
+    list-style: none!important;
+    float: right;
+    margin: 20px 10px;
+    text-align: center;
+    background-color: var(--beige);
+    padding: 10px;
+    border-radius: 10px;
+}
+.menu li{
+    display: inline;
+    font-size: 18px;
+    font-family:  "Silkscreen", sans-serif;
+    font-weight: 400;
+ 
+}
+.menu li a{
+    color: var(--white);
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: var(--verde);
+}
+.servicios{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+.card{
+    background-color: var(--white);
+    border: var(--verde) 2px solid;
+    border-radius: 10px;
+    padding: 20px 35px ;
+}
+.card h3{
+    font-size: 2.2rem;
+    color: var(--sabio);
+    font-weight: 800;
+    text-align: center;
+}
+.card p{
+    text-align: center;
+    color: var(--black);
+}
+p{
+    font-size: 16px;
+}
