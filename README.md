@@ -22,3 +22,10 @@ este sitio web esta estructurado por modulos: Fotografia, Dieseño Grafico, Desa
 
 `<p> Hola mundo soy una prueba </p>`
 ![cejitas](assets\imagenes\cejita.jpg)
+
+
+| COD | USER | EMAIL |
+|-----|------|------|
+| ED001 | Carlos | carlos.malave2006@gmial.com |
+| ED002 | cell2 | minelatino@gmail.com |
+| ED003 | cell2 | microsoft@gmail.com |
