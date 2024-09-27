@@ -15,5 +15,5 @@ este sitio web esta estructurado por modulos: Fotografia, Dieseño Grafico, Desa
 1. Servicios
 1. Profesores
 1. Alumnos
-1. Horarios
+1. Horarios55454
 
