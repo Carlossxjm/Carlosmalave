@@ -3,6 +3,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -12,8 +13,10 @@ body{
     --verde: #677D6A;
     --beige: #D6BD98;
     --white: #ffffff;
-    --black: #000000;
+    --black: hwb(0 0% 100%);
 }
+a{color: var(--negro);}
+a:visited{ color: #1A3636;}
 
 header{
     background-color: var(--negro);
@@ -46,10 +49,12 @@ header{
     color: var(--verde);
 }
 .servicios{
-    width: 100%;
+    width: 94%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
+    padding-right: 5%;
+    padding-left: 3%;
 }
 .card{
     background-color: var(--white);
@@ -69,4 +74,58 @@ header{
 }
 p{
     font-size: 16px;
+}
+/*ESTILO PARA TITULO DE SECCION*/
+.titulo-section{
+    text-align: center;
+}
+
+.titulo-section h2{
+    font-size: 36x;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+.titulo-section p{
+font-size: 18px;
+
+}
+
+/**/
+/* color de secciones - fuentes */
+.primary-color{
+    background-color: var(--negro);
+}
+.primary-font{
+    color: rgb(90, 90, 221);
+}
+.white-color{
+    color: var(--white);
+}
+
+/*padding*/
+.padding-20px{
+    padding: 20px;
+}
+.padding-50px{
+    padding: 50px;
+}
+.padding-100px{
+    padding-top: 100px;
+}
+.padding-bottom100px{
+    padding-bottom: 100px;
+}
+/*Botones*/
+.primary-buttom{
+    background-color: var(--white);
+    color: var(--black);
+    font-weight: 800;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+}
+.primary-buttom:hover{
+    background-color: var(--verde);
+    color: var(--white);
 }
