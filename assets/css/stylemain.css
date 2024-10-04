@@ -53,7 +53,7 @@ header{
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    padding-right: 5%;
+    padding-right: 3%;
     padding-left: 3%;
 }
 .card{
@@ -101,6 +101,9 @@ font-size: 18px;
 .white-color{
     color: var(--white);
 }
+.black-color{
+    color: black;
+}
 
 /*padding*/
 .padding-20px{
@@ -128,4 +131,55 @@ font-size: 18px;
 .primary-buttom:hover{
     background-color: var(--verde);
     color: var(--white);
+}
+/*contacto*/
+.contacto{
+    width: 94%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.right-column{
+    width: 95%;
+    margin-bottom: 20px;
+    margin-top: 10px;    
+    padding: 5px;
+    border-radius: 10px;
+    border-color: 18px;
+    font-size: 18px;
+}
+.right-column label{
+    width: 1000px;
+    font-size: 18px;
+    color: var(--white);
+    margin-bottom: 15px;
+    text-align: left;
+    color: black;
+}
+
+.right-column input[type="text"], [type="tel"], [type="email"],[type="text"]{
+    width: 95%;
+    padding: 5px;
+    border-radius: 10px;
+    border-color: 18px;
+    font-size: 18px;
+    color: var(--beige);
+}
+.right-column textarea{
+    width: 100%;
+    font-size: 18px;
+    color: var(--negro);
+    margin-bottom: 15px;
+}
+.right-column input[type="submit"]{
+    width: 100%;
+    background-color: var(--negro);
+    color: white;
+    padding: 25px;
+    margin-top: 15px;
+    border-radius: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large
+
 }
