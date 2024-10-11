@@ -27,7 +27,7 @@ este sitio web esta estructurado por modulos: Fotografia, Dieseño Grafico, Desa
 
 | COD | USER | EMAIL |
 |-----|------|------|
-| ED001 | Carlos | carlos.malave2006@gmial.com |
-| ED002 | cell2 | minelatino@gmail.com |
-| ED003 | cell2 | microsoft@gmail.com |
+| ED001 | Gmail | carlos.malave2006@gmail.com |
+| ED002 | Instagram | https://www.instagram.com/carlossxjm/|
+| ED003 | TikTok | https://www.tiktok.com/@carlossxjm |
 
