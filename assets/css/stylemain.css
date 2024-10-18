@@ -16,7 +16,7 @@ body{
     --black: hwb(0 0% 100%);
 }
 a{color: var(--negro);}
-a:visited{ color: #ffffff;}
+a:visited{color: var(--negro);}
 a:hover{ color: #677D6A;}
 
 header{
@@ -37,15 +37,18 @@ header{
     float: right;
     margin: 20px 10px;
     text-align: center;
-    background-color: var(--beige);
     padding: 10px;
     border-radius: 10px;
 }
 .menu li{
     display: inline;
+    background-color: var(--beige);
+    padding: 20px;
     font-size: 18px;
     font-family:  "Silkscreen", sans-serif;
     font-weight: 400;
+    border-radius: 20px;
+    margin-top: 10px;
  
 }
 .menu li a{
@@ -255,4 +258,26 @@ font-size: 18px;
 }
 .lista-contacto li a:hover{
     color: var(--verde);
+}
+/* PAGINA DE DESARROLLO WEB*/
+.col-servicio{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.img-responsive{
+    width: 100%;
+    margin-left: 400px;
+    border-radius: 15px;
+}
+.border-white{
+    border: 3px solid white;
+    box-shadow: 5px 5px 15px;/*Para sombras en cajas contenedoras*/
+}
+.h1{
+    font-size: 3rem;
+}
+.col-1{
+    padding: 30px;
+    line-height: 1.8em;
 }
